@@ -23,7 +23,7 @@ export class OrbitListComponent implements OnInit {
 			} else if (a[column] > b[column]) {
 				return 1;
 			}
-			return 0;
+			return 0
 		});
 	}
 
